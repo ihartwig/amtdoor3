@@ -1,0 +1,29 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NVT2002
+D Voltage Level Translator Bidirectional 1 Circuit 2 Channel
+$ENDCMP
+#
+$CMP NVT2006
+D Voltage Level Translator Bidirectional 1 Circuit 6 Channel
+$ENDCMP
+#
+$CMP Q_PMOS_HP
+D Transistor P-MOSFET High Power (IRF9393, DMP3056)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_SGD
+D Transistor P-MOSFET High Power (IRF9393, DMP3056)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP SC4503-TSOT-23
+D Boost Switching Regulator IC Positive Adjustable 2.5V 1 Output 1.4A
+$ENDCMP
+#
+$CMP TPS62177
+D 28-V, 0.5-A Step-Down Converter With Sleep Mode
+$ENDCMP
+#
+#End Doc Library

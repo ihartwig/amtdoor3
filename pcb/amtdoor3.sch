@@ -733,8 +733,8 @@ F 4 "SMT" H 6700 10650 60  0001 C CNN "Type"
 $EndComp
 Text Notes 5400 7000 0    60   ~ 0
 12-24V Control\n\nHigh-power switch for 12-24V/6A.\nCan source power from 12V boost or VAUX.
-Text Label 2000 10150 0    60   ~ 0
-VOS_5V
+Text Label 1900 10150 0    60   ~ 0
+P5V_BCK
 $Comp
 L +5V #PWR013
 U 1 1 5807B55C
@@ -1002,10 +1002,10 @@ Wire Wire Line
 Wire Wire Line
 	3300 9950 3800 9950
 Wire Wire Line
-	5500 10050 5500 9950
+	5500 9950 5500 10050
 Connection ~ 5500 9950
 Wire Wire Line
-	5000 10050 5000 9950
+	5000 9950 5000 10050
 Connection ~ 5000 9950
 Wire Wire Line
 	3300 10050 4400 10050
@@ -1054,10 +1054,10 @@ Wire Wire Line
 Wire Wire Line
 	2300 10050 2200 10050
 Wire Wire Line
-	2200 10050 2200 9950
+	2200 9950 2200 10050
 Connection ~ 2200 9950
 Wire Wire Line
-	2300 10150 2000 10150
+	2300 10150 1900 10150
 Wire Wire Line
 	6200 10450 6200 10550
 Wire Wire Line
@@ -1096,7 +1096,7 @@ Connection ~ 6800 9950
 Wire Wire Line
 	6300 9750 6100 9750
 Wire Wire Line
-	6100 9750 6100 9950
+	6100 9950 6100 9750
 Connection ~ 6100 9950
 Wire Wire Line
 	1300 10750 2100 10750
@@ -1171,7 +1171,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 4900 3100 4900
 Text Label 1300 4900 0    60   ~ 0
-RPI_3V3_1
+RPI_3V3_2
 Wire Wire Line
 	2700 4900 2700 5400
 Wire Wire Line
@@ -2208,4 +2208,48 @@ Text Label 3900 7450 0    60   ~ 0
 BST_SW_D
 Text Notes 10950 2700 0    60   ~ 0
 PoEPi Hat (optional): \nSPI on GPIO8, 9, 10, 11\nINT on GPIO25\nID on GPIO0, 1
+$Comp
+L WOBBAPHAT-LOGO G1
+U 1 1 59C86ADE
+P 12900 4750
+F 0 "G1" H 12900 4500 60  0000 C CNN
+F 1 "WOBBAPHAT-LOGO" H 12900 4600 60  0000 C CNN
+F 2 "amtdoor3:wobbaphat-logo-fcu" H 12900 4750 60  0001 C CNN
+F 3 "" H 12900 4750 60  0000 C CNN
+	1    12900 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L WOBBAPHAT-LOGO G2
+U 1 1 59C86CF7
+P 12900 5250
+F 0 "G2" H 12900 5000 60  0000 C CNN
+F 1 "WOBBAPHAT-LOGO" H 12900 5100 60  0000 C CNN
+F 2 "amtdoor3:wobbaphat-logo-fsilk-lg" H 12900 5250 60  0001 C CNN
+F 3 "" H 12900 5250 60  0000 C CNN
+	1    12900 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMT-LOGO G3
+U 1 1 59C86DB8
+P 14100 4750
+F 0 "G3" H 14100 4500 60  0000 C CNN
+F 1 "AMT-LOGO" H 14100 4600 60  0000 C CNN
+F 2 "amtdoor3:amt-logo-fcu" H 14100 4750 60  0001 C CNN
+F 3 "" H 14100 4750 60  0000 C CNN
+	1    14100 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMT-LOGO G4
+U 1 1 59C86E78
+P 14100 5250
+F 0 "G4" H 14100 5000 60  0000 C CNN
+F 1 "AMT-LOGO" H 14100 5100 60  0000 C CNN
+F 2 "amtdoor3:amt-logo-fsilk-lg" H 14100 5250 60  0001 C CNN
+F 3 "" H 14100 5250 60  0000 C CNN
+	1    14100 5250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

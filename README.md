@@ -7,12 +7,14 @@ This repository houses hardware for the 3rd generation smart lock at Ace Monster
 
 ## Features
 
-* PRi door controller
-  * bi-directional level shifting for RFID Reader I/O
-  * connectors for switch feedback
-  * 12V strike power from on-board boost or aux input
+* Wide Operation Buck Boost and Automation pHat (WOBBApHAT)
+  * RPi Zero-sized pHAT
+  * bi-directional level shifting for RFID Reader I/O (UART), PWM, and switch inputs (GPIO)
+  * 12-24V strike power from on-board boost or aux input
+  * (optionally) 5V RPi power from 12-24V source
+  * order at http://dirtypcbs.com/store/designer/details/9832/5763/wobbaphat-for-amtdoor3
 
 ## Development Structure
 
 * **docs**: Documentation used in designs.
-* **pcb**: Breakout board to connect RPi Zero with RFID Reader and door strike.
+* **pcb**: WOBBApHAT board to connect RPi Zero with RFID Reader and door strike.

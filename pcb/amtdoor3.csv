@@ -1,0 +1,51 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Type,Digikey Part No,Mfg,Mfg Part No,Pop,Alt Mfg,Alt Mfg Part No
+1,Unpolarized capacitor,C_Small,C2,15pF,C_0603,1,,SMT,,,,,,
+2,Unpolarized capacitor,C_Small,C1,1uF,C_0603,1,,SMT,,,,,,
+3,Unpolarized capacitor,C_Small,C3 C4 C6,2.2uF 50V,C_0805,3,,SMT,,,,,,
+4,Unpolarized capacitor,C_Small,C8,22uF 10V,C_0805,1,,SMT,,,,,,
+5,"Schottky diode, small symbol",D_Schottky_Small,D1,15V 1A,SMB_Standard,1,,SMT,VS-10BQ015-M3/5BTGICT-ND,Vishay Semiconductor,VS-10BQ015-M3/5BT,,,
+6,,Led_Small,D2 D3 D4 D5 D6 D7 D8 D9,LED Green,LED_0603,8,,SMT,160-1183-1-ND,Lite-On,LTST-C190GKT,,,
+7,,F_Small,F1,250mA,R_0805,1,,,,,,DNP,,
+8,,F_Small,F8,500mA,R_0805,1,,,,,,DNP,,
+9,,F_Small,F2 F3 F4 F5 F6 F7,F_Small,R_0603,6,,,,,,DNP,,
+10,,AMT-LOGO,G3,AMT-LOGO,amt-logo-fcu,1,,,,,,,,
+11,,AMT-LOGO,G4,AMT-LOGO,amt-logo-fsilk-lg,1,,,,,,,,
+12,,WOBBAPHAT-LOGO,G1,WOBBAPHAT-LOGO,wobbaphat-logo-fcu,1,,,,,,,,
+13,,WOBBAPHAT-LOGO,G2,WOBBAPHAT-LOGO,wobbaphat-logo-fsilk-lg,1,,,,,,,,
+14,,hole-metalized-no4,H1 H2 H3 H4,hole-metalized-no4,hole-m3,4,,nostuff,,,,,,
+15,,INDUCTOR_SMALL,L2,10uH,Choke_SMD_Wuerth-WE-PD2-Typ-L,1,,SMT,587-2081-1-ND,Taiyo Yuden,NR6045T100M,,,
+16,,INDUCTOR_SMALL,L1,4.7uH,Choke_SMD_Wuerth-WE-PD2-Typ-L,1,,SMT,587-2100-1-ND,Taiyo Yuden,NR6028T4R7M,,,
+17,,CONN_01X02,P5 P6,CONN_01X02,Pin_Header_Straight_1x02_Pitch3.5mm,2,,TH,ED2740-ND,"On Shore Technology, Inc.",OSTTE020104,,,
+18,,CONN_01X04,P1 P2 P3,CONN_01X04,Socket_Strip_Straight_1x04,3,,TH,,,,,,
+19,,CONN_02X20,P4,dnp-REF-182665-01,Pin_Header_Straight_TH-SMT-NoPaste_2x20,1,,,,,,DNP,,
+20,,DMMT3906_Dual_PNP,Q3,DMMT3906_Dual_PNP,SOT-23-6,1,,SMT,DMMT3906-7-FDICT-ND,Diodes Inc,DMMT3906-7-F,,,
+21,"Transistor Dual N-MOSFET (DMN63D8LDW, 2N7002DW)",Q_NMOS_DUAL,Q1 Q5 Q6 Q7 Q8 Q9 Q10,Q_NMOS_DUAL,SOT-23-6,7,,SMT,DMN5L06DMKDICT-ND,Diodes Inc,DMN5L06DMK-7,,,
+22,Transistor P-MOSFET with substrate diode (general),Q_PMOS_GSD,Q4,Q_PMOS_GSD,SOT-23,1,,SMT,DMP3099L-7DICT-ND,Diodes Inc,DMP3099L-7,,,
+23,"Transistor P-MOSFET High Power (IRF9393, DMP3056)",Q_PMOS_HP,Q2,Q_PMOS_HP,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,,SMT,DMG4435SSS-13DICT-ND,Diodes Inc,DMG4435SSS-13,,Diodes Inc,DMP3085LSS-13
+24,"Resistor, small symbol",R_Small,R4,0,R_0603,1,,,,,,DNP,,
+25,"Resistor, small symbol",R_Small,R5 R6 R7 R11 R13 R16 R17 R18 R19 R20,10k,R_0603,10,,SMT,,,,,,
+26,"Resistor, small symbol",R_Small,R10,150k,R_0603,1,,SMT,,,,,,
+27,"Resistor, small symbol",R_Small,R3 R15 R21 R22 R23 R25,1k,R_0603,6,,SMT,,,,,,
+28,"Resistor, small symbol",R_Small,R14 R24,2.2k,R_0603,2,,SMT,,,,,,
+29,"Resistor, small symbol",R_Small,R1,432k,R_0603,1,,SMT,,,,,,
+30,"Resistor, small symbol",R_Small,R12,47k,R_0603,1,,SMT,,,,,,
+31,"Resistor, small symbol",R_Small,R2,49.9k,R_0603,1,,SMT,,,,,,
+32,"Resistor, small symbol",R_Small,R9,787k,R_0603,1,,SMT,,,,,,
+33,Boost Switching Regulator IC Positive Adjustable 2.5V 1 Output 1.4A,SC4503-TSOT-23,U1,SC4503-TSOT-23,SOT-23-5,1,,SMT,SC4503TSKCT-ND,Semtech Corporation,SC4503TSKTRT,,Texas Instruments,LMR62421XMF/NOPB
+34,"28-V, 0.5-A Step-Down Converter With Sleep Mode",TPS62177,U3,TPS62175,DFN-10-1EP_2x3mm_Pitch0.5mm,1,,SMT,296-39451-1-ND,Texas Instruments,TPS62175DQCR,,,
+35,point,TEST_1P,W1,TEST_1P,Measurement_Point_Round-SMD-Pad_Small,1,,,,,,,,
+
+
+
+
+
+Component Groups:,35
+Component Count:,76
+Fitted Components:,76
+Number of PCBs:,1
+Total components:,76
+Schematic Version:,2.0
+Schematic Date:,2017-09-25
+BoM Date:,"Thursday, January 04, 2018 'PMt' 11:07:57 PM"
+Schematic Source:,/Users/ihartwig/repos/amtdoor3/pcb/amtdoor3.sch
+KiCad Version:,Eeschema 4.0.7
